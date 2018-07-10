@@ -8,5 +8,4 @@
     "prettier.disableLanguages": [
         "js"
     ],
-    "files.autoSave": "onFocusChange",
 }
