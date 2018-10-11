@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body, html {
+body,
+html {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -16,41 +17,53 @@ ul li {
 .wrapper {
     text-align: center;
 }
-.toggle-nav, .toggle-quickLinks {
+
+.toggle-nav,
+.toggle-quickLinks {
     box-sizing: border-box;
     padding: 8px;
     cursor: pointer;
     display: none;
     text-decoration: none;
 }
+
 .nav {
     position: relative;
     background: #444;
     height: 46px;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link, .btn-primary{
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link,
+.btn-primary {
     background-color: #666766;
     border-color: #666766;
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
     background-color: #666766;
     color: white;
     border-color: #666766;
 }
-.nav-tabs{
+
+.nav-tabs {
     border-bottom: 1px solid #a2a1a2;
 }
-.nav-link{
-    color: #000; 
+
+.nav-link {
+    color: #000;
     border: 1px solid white;
-    margin-left: 5px; 
+    margin-left: 5px;
     margin-right: 5px;
 }
-.nav-link:hover{
-    background-color:white;
+
+.nav-link:hover {
+    background-color: white;
     color: #666766;
     border-color: white;
 }
+
 .top-nav {
     position: relative;
     font-size: 1rem;
@@ -59,9 +72,11 @@ ul li {
     padding-left: 0;
     height: 34px;
 }
+
 .top-nav li {
     height: 100%;
 }
+
 .top-nav-link {
     padding-top: 5px;
     padding-left: 10px;
@@ -74,6 +89,7 @@ ul li {
 .top-nav li:hover a {
     color: white !important;
 }
+
 .titan-services {
     font-size: 1rem;
     background: #444;
@@ -81,19 +97,24 @@ ul li {
     color: #fff !important;
     text-decoration: none;
 }
+
 .titanServices:hover {
     text-decoration: underline;
 }
+
 .titan-services li:not(:last-child) {
     padding-bottom: 20px;
 }
+
 ul.titan-services {
     background: #333;
     position: absolute;
     z-index: 4;
     text-align: left;
 }
-ul.titan-services li, ul li:hover ul.titan-services {
+
+ul.titan-services li,
+ul li:hover ul.titan-services {
     display: block;
 }
 
@@ -102,8 +123,9 @@ ul.titan-services li, ul li:hover ul.titan-services {
     top: -12px;
     height: 116px;
     background: #ffcc00;
-    border-top: 5px solid white; 
+    border-top: 5px solid white;
 }
+
 .wordmark {
     height: 100px;
 }
@@ -122,37 +144,41 @@ ul.titan-services li, ul li:hover ul.titan-services {
     position: relative;
 }
 
-.container{
+.container {
     max-width: 1200px;
     border-radius: 5px;
     box-sizing: border-box;
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
     position: relative;
     top: -150px;
-    background-color: white; 
+    background-color: white;
 }
-#directory{
+
+#directory {
     width: 1200px;
 }
-#directory-background{
+
+#directory-background {
     width: 100%;
     position: relative;
-    top: -1px; 
+    top: -1px;
 }
-#directory_length > label > select{
+
+#directory_length>label>select {
     width: 50px;
     height: 40px;
-    font-size: 10px!important;
-    float: left!important;
+    font-size: 10px !important;
+    float: left !important;
 }
-#directory_length > label{
-   width: 175px;
-   font-size: 0px !important;
+
+#directory_length>label {
+    width: 175px;
+    font-size: 0px !important;
 }
 
 .directory-title {
@@ -163,36 +189,47 @@ ul.titan-services li, ul li:hover ul.titan-services {
     position: absolute;
     bottom: 0;
 }
+
 .pageSearch {
     position: relative;
     left: 428px;
     top: 14px;
 }
-.pageSearchIcon, .title {
+
+.pageSearchIcon,
+.title {
     text-decoration: none;
     color: #000;
 }
-.tab-pane{
+
+.tab-pane {
     margin-top: 20px;
 }
-#bootstrap-pills1, #bootstrap-pills2{
+
+#bootstrap-pills1,
+#bootstrap-pills2 {
     margin-top: 15px;
     border-bottom: 1px solid #a2a1a2;
-    height: 55px; 
+    height: 55px;
 }
-#bootstrap-tabs, #bootstrap-pills1, #bootstrap-pills2 {
+
+#bootstrap-tabs,
+#bootstrap-pills1,
+#bootstrap-pills2 {
     background-color: #E2E2E2;
 }
 
-#search-btn{
+#search-btn {
     margin-top: 10px;
     display: block;
     cursor: pointer;
 }
-#search > div:nth-child(1) > div.col-md-8{
+
+#search>div:nth-child(1)>div.col-md-8 {
     box-sizing: border-box;
 }
-#search > div:nth-child(1) > div.col-md-4{
+
+#search>div:nth-child(1)>div.col-md-4 {
     box-sizing: border-box;
 }
 
@@ -204,6 +241,7 @@ ul.titan-services li, ul li:hover ul.titan-services {
     position: relative;
     top: -28px;
 }
+
 .tabLinksTitle {
     position: relative;
     padding: 13px 25px;
@@ -213,23 +251,30 @@ ul.titan-services li, ul li:hover ul.titan-services {
     border-top-right-radius: 5px;
     z-index: 1;
 }
+
 .tabLinksTitle:hover {
     background: #d1d1d1;
     border: 1px solid #fff;
     border-bottom: none;
 }
+
 .tabLinks a {
     color: #444;
     text-decoration: none;
 }
+
 .white {
-    background: #fff!important;
+    background: #fff !important;
 }
-.retireTab, .updateTab {
+
+.retireTab,
+.updateTab {
     padding: 10px 25px;
     top: 5px;
 }
-.retireTab a, .updateTab a {
+
+.retireTab a,
+.updateTab a {
     position: relative;
     top: -3px;
 }
@@ -237,39 +282,50 @@ ul.titan-services li, ul li:hover ul.titan-services {
 .tabContent {
     display: none;
 }
+
 .tabContent:not(.searchContent) {
     width: 75.7%;
     margin: 0 auto;
 }
+
 .tabContent.active {
     display: inherit;
 }
 
-.printContent, .retireContent, .searchContent, .updateContent {
+.printContent,
+.retireContent,
+.searchContent,
+.updateContent {
     max-width: 748px;
     height: 100%;
     position: relative;
     top: -15px;
     margin: 0 auto;
 }
-.retireContent, .searchContent {
+
+.retireContent,
+.searchContent {
     top: -25px;
 }
 
-.searchBy, .searchExample {
+.searchBy,
+.searchExample {
     width: 50%;
     display: inline-block;
 }
+
 .searchBy a {
     text-decoration: none;
     color: #333;
 }
+
 .searchBy input {
     position: relative;
     top: -102px;
     width: 265px;
     padding: 4px 0;
 }
+
 .searchBy button {
     position: relative;
     top: -102px;
@@ -285,12 +341,14 @@ ul.titan-services li, ul li:hover ul.titan-services {
     top: -102px;
     right: 40px;
 }
+
 .department {
     position: relative;
     top: -110px;
     display: none;
 }
-.department-select{
+
+.department-select {
     cursor: pointer;
     display: inline-block;
 }
@@ -300,19 +358,23 @@ ul.titan-services li, ul li:hover ul.titan-services {
     border: 1px solid #b0b0b0;
     padding: 9px;
 }
+
 footer p b {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
 }
+
 /* Where Excellence and Opportunity Meet. */
-body > footer > div.topFooter > span{
+body>footer>div.topFooter>span {
     position: relative;
-    font-weight: 700; 
-    
+    font-weight: 700;
+
 }
- /* wi logo */
- body > footer > div.middleFooter > div > div.location-container.mid-child > div.wismap > a > img{
+
+/* wi logo */
+body>footer>div.middleFooter>div>div.location-container.mid-child>div.wismap>a>img {
     top: 0px;
 }
+
 .topFooter {
     text-align: center;
     color: #3b3b3b;
@@ -327,41 +389,61 @@ body > footer > div.topFooter > span{
     width: 100%;
     text-align: center;
 }
+
 .middleFooter a {
     text-decoration: none;
     color: #000;
 }
-.midFooter-container:after, .midFooter-container:before {
+
+.midFooter-container:after,
+.midFooter-container:before {
     content: "";
     display: table;
     clear: both;
 }
+
 .midFooter-container {
     text-align: center;
 }
-.location-container, .mobileEmergency-container {
+
+.location-container,
+.mobileEmergency-container {
     font-size: 0;
 }
+
 .mid-child {
     display: inline-block;
     width: 25%;
     text-align: left;
     margin: 50px 0;
 }
-.address-phone, .mobileEmergency-links, .resources-links {
+
+.address-phone,
+.mobileEmergency-links,
+.resources-links {
     line-height: 25px;
 }
-.accredited-container, .emergency-p, .location-container, .mobile-emergency, .mobileEmergency-container, .resources-container {
+
+.accredited-container,
+.emergency-p,
+.location-container,
+.mobile-emergency,
+.mobileEmergency-container,
+.resources-container {
     position: relative;
 }
+
 .wismap {
     width: 34%;
     vertical-align: top;
 }
-.address-phone, .wismap {
+
+.address-phone,
+.wismap {
     display: inline-block;
     font-size: 1rem;
 }
+
 .wismap img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -372,6 +454,7 @@ body > footer > div.topFooter > span{
     position: relative;
     top: 55px;
 }
+
 .wismap img:hover {
     -webkit-filter: none;
     filter: none;
@@ -386,31 +469,38 @@ body > footer > div.topFooter > span{
     text-align: center;
     width: 72px;
 }
+
 .mobile-emergency a:hover {
     color: #fec424;
 }
+
 .mobile-emergency .fa-mobile-alt {
     font-size: 60px;
     position: relative;
 }
+
 .mobile-emergency .fa-mobile {
     font-size: 60px;
     position: relative;
 }
+
 .mobile-emergency .fa-exclamation-triangle {
     font-size: 40px;
     position: relative;
     top: 13px;
 }
-.mobile-emergency, .mobileEmergency-links {
+
+.mobile-emergency,
+.mobileEmergency-links {
     display: inline-block;
     font-size: 1rem;
 }
+
 .mobileEmergency-links {
     width: 80%;
 }
 
-.desaturate{
+.desaturate {
     transition: all .6s ease;
 }
 
@@ -419,71 +509,90 @@ body > footer > div.topFooter > span{
     top: -4px;
     width: 20%;
 }
+
 .resources-links li {
     display: block;
     position: relative;
     right: 39.5px;
 }
+
 .resources-links li:hover {
     text-decoration: underline;
 }
+
 .accredited-container {
     width: 193px;
     top: -48px;
 }
+
 .uwo-system {
     margin-left: 10px;
 }
+
 .bottomFooter {
     background: #444;
     height: 63px;
 }
+
 .bottomFooter div {
     display: inline-block;
 }
-.bottomFooter div span{
+
+.bottomFooter div span {
     color: #DBDBDB;
 }
+
 .copyright {
     float: left;
     color: #b0b0b0;
     padding-top: 23px;
     padding-left: 10px;
 }
-#footer-social{
+
+#footer-social {
     float: right;
     padding: 15px;
 }
-#footer-social a{
+
+#footer-social a {
     padding-right: 15px;
 }
+
 .socialMedia-footer {
     float: right;
     padding-top: 16px;
     padding-bottom: 15px;
 }
+
 .socialMedia-footer a {
     color: #b0b0b0;
     padding-right: 20px;
 }
+
 .fa-facebook-f:hover {
     color: #3b5998;
 }
+
 .fa-twitter:hover {
     color: #1da1f2;
 }
+
 .fa-instagram:hover {
     color: #f56040;
 }
+
 .fa-youtube:hover {
     color: #cd201f;
 }
+
 .fa-linkedin:hover {
     color: #0077b5;
 }
+
 .fa-pinterest-p:hover {
     color: #bd081c;
 }
+
 .fa-flickr:hover {
     color: #8032b0;
 }
@@ -496,91 +605,107 @@ body > footer > div.topFooter > span{
     position: absolute;
     right: 0;
 }
+
 .quicklinks ul {
     margin: 0;
     padding: 5px 0 0;
 }
+
 .quicklinks li {
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
 }
+
 .quicklinks a {
     color: #000;
     text-decoration: none;
 }
 
-.dropdown-menu{
-     overflow-y: scroll;
-    overflow-x: hidden; 
+.dropdown-menu {
+    overflow-y: scroll;
+    overflow-x: hidden;
     height: 400px;
 }
-.hidden{
+
+.hidden {
     display: none;
 }
 
 
-.results-row{
+.results-row {
     display: none;
 }
 
-.department-row{
+.department-row {
     display: none;
     margin-bottom: 30px;
 }
 
-#inputName{
+#inputName {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-#tabsContainer{
-    background-color:  #E2E2E2;
+#tabsContainer {
+    background-color: #E2E2E2;
     padding: 10px;
     border-radius: 5px;
-  
+
 }
-#resultsContainer{
+
+#resultsContainer {
     padding-top: 15px;
 }
 
 
-.btn-primary:hover{
-    background-color:white;
+.btn-primary:hover {
+    background-color: white;
     color: #666766;
     border-color: white;
 }
 
-a{
+a {
     color: #666766;
 }
-a:hover{
+
+a:hover {
     color: black;
 }
 
-.tab-content{
+.tab-content {
     margin-bottom: 15px;
 }
- #update-information, #printed-directory, #retired-staff{
-     padding-left: 15px;
-     padding-right: 15px;
- }
- .dataTables_wrapper .dataTables_paginate .paginate_button{
-     padding: 0px; 
- }
- .paginate_button :hover{
-    border-left: 1px solid black; 
- }
- .paginate_button.disabled {
+
+#update-information,
+#printed-directory,
+#retired-staff {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0px;
+}
+
+.paginate_button :hover {
+    border-left: 1px solid black;
+}
+
+.paginate_button.disabled {
     display: none !important;
- }
+}
 
- #results-table-body > tr > td > ul > li{
-   display: block;
- }
+#results-table-body>tr>td>ul>li {
+    display: block;
+}
 
- /* phone field */
- #inputPhone{
-     margin-top: 15px;
-     margin-bottom: 15px;
- }
+/* phone field */
+#inputPhone {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#clear-btn {
+    margin-top: 5px;
+}

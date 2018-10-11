@@ -405,3 +405,12 @@ document.getElementById("directory-background").src = randomBG[randomInt];
 function recaptchaCallback() {
   $("#search-btn").removeAttr("disabled");
 }
+
+function clearFields() {
+  // clear out all input fields for all screens
+  $("#first-name-search").val(""); // clears first name
+  $("#last-name-search").val(""); // clears last name
+  $("#select-department-content").val("Select a Department"); // clears value of the data
+  $("#select-department-content").attr("value", "Select a Department"); // clears the attribute on the select tag
+  $("#phone").val(""); // clears the phone number
+}

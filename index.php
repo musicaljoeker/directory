@@ -190,7 +190,7 @@ $isIPFromUWO = isIPFromUWO( $ip );
                 ?>
                 
                 <a href="#resultsContainer"><button id="search-btn" type="button" class="btn btn-primary" <?php if(!$isIPFromUWO){ echo "disabled"; } ?>>Search</button></a>
-                <!-- <button id="search-btn" type="button" class="btn btn-primary">Search</button> -->
+                <button id="clear-btn" type="button" class="btn btn-primary" onclick="clearFields()">Clear</button>
 
                 <p id="errorName" style="color: red; display: none; ">Please enter a first and/or last name </p>
                 <p id="errorNameDepartment" style="color: red; display: none;"> Please enter a first and/or last name, or select a department</p>
